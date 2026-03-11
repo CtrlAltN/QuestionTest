@@ -39,8 +39,7 @@
         .container {
             max-width: 720px;
             margin: 0 auto;
-            padding-bottom: 100px;
-            /* space for sticky button */
+            padding-bottom: 20px;
         }
 
         /* ===== Header ===== */
@@ -167,18 +166,9 @@
             border-color: #667eea;
         }
 
-        /* ===== Submit Button (Sticky) ===== */
+        /* ===== Submit Button ===== */
         .btn-wrap {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 14px 16px;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
-            z-index: 100;
+            padding: 20px 0;
             text-align: center;
         }
 
@@ -363,17 +353,17 @@
 
     <div class="container">
         <div class="header">
-            <h1>แบบทดสอบ วัฒนธรรมและภูมิปัญญาไทย</h1>
-            <p class="subtitle">ชั้นประถมศึกษาปีที่ 2</p>
+            <h1 id="quizTitle"></h1>
+            <p class="subtitle" id="quizSubtitle"></p>
         </div>
 
         <form id="quiz"></form>
 
-        <div id="result"></div>
-    </div>
+        <div class="btn-wrap">
+            <button class="btn-submit" id="submitBtn" onclick="checkScore()">✅ ตรวจคำตอบ</button>
+        </div>
 
-    <div class="btn-wrap">
-        <button class="btn-submit" id="submitBtn" onclick="checkScore()">✅ ตรวจคำตอบ</button>
+        <div id="result"></div>
     </div>
 
     <script src="script.js"></script>

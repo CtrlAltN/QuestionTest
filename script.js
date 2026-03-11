@@ -3,6 +3,10 @@ let quizData = [];
 fetch("questions.json")
     .then(res => res.json())
     .then(data => {
+        // โหลดหัวเรื่องจาก JSON
+        document.getElementById("quizTitle").textContent = data.title;
+        document.getElementById("quizSubtitle").textContent = data.subtitle;
+
         quizData = data.questions;
         renderQuiz();
     });
