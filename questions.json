@@ -3,224 +3,224 @@
     "subtitle": "ชั้นประถมศึกษาปีที่ 2",
     "questions": [
         {
-            "question": "What is your favorite sport?",
+            "question": "แผนภูมิรูปภาพแสดงจำนวนผลไม้ที่ขายได้ โดย 1 รูปแทน 2 ลูก ถ้ามีรูปแอปเปิล 4 รูป แสดงว่าขายแอปเปิลได้กี่ลูก",
             "choices": [
-                "I am football.",
-                "My favorite sport is football.",
-                "Football is running.",
-                "I football sport."
+                "6 ลูก",
+                "8 ลูก",
+                "10 ลูก",
+                "12 ลูก"
             ],
             "answer": 1,
-            "explanation": "รูปประโยคที่ถูกต้องคือ My favorite sport is + ชื่อกีฬา"
+            "explanation": "1 รูปแทน 2 ลูก ดังนั้น 4 รูป = 4 × 2 = 8 ลูก"
         },
         {
-            "question": "What sport do you like?",
+            "question": "ถ้าแผนภูมิรูปภาพแสดงรูปส้ม 5 รูป และ 1 รูปแทน 2 ผล มีส้มทั้งหมดกี่ผล",
             "choices": [
-                "I swimming like.",
-                "Swimming I am.",
-                "I like swimming.",
-                "I am like swimming."
-            ],
-            "answer": 2,
-            "explanation": "โครงสร้างที่ถูกต้องคือ I like + กีฬา"
-        },
-        {
-            "question": "Do you like football?",
-            "choices": [
-                "Yes, I football.",
-                "Yes, I do.",
-                "Yes, I like do.",
-                "Yes, I am."
-            ],
-            "answer": 1,
-            "explanation": "คำตอบของ Do you...? ใช้ Yes, I do / No, I do not"
-        },
-        {
-            "question": "Which word is a sport?",
-            "choices": [
-                "banana",
-                "table",
-                "football",
-                "book"
-            ],
-            "answer": 2,
-            "explanation": "football เป็นคำศัพท์เกี่ยวกับกีฬา"
-        },
-        {
-            "question": "Which sport uses a racket?",
-            "choices": [
-                "swimming",
-                "tennis",
-                "running",
-                "flying a kite"
-            ],
-            "answer": 1,
-            "explanation": "tennis ใช้ไม้แร็กเก็ต"
-        },
-        {
-            "question": "Which word is a subject pronoun?",
-            "choices": [
-                "Run",
-                "Ball",
-                "Sport",
-                "He"
+                "7 ผล",
+                "8 ผล",
+                "9 ผล",
+                "10 ผล"
             ],
             "answer": 3,
-            "explanation": "He เป็น Subject Pronoun"
+            "explanation": "5 × 2 = 10 ผล"
         },
         {
-            "question": "______ am a student.",
+            "question": "ถ้าในแผนภูมิรูปภาพมีรูปกล้วย 3 รูป และ 1 รูปแทน 5 ลูก กล้วยมีทั้งหมดกี่ลูก",
             "choices": [
-                "I",
-                "He",
-                "She",
-                "They"
+                "10 ลูก",
+                "15 ลูก",
+                "20 ลูก",
+                "25 ลูก"
+            ],
+            "answer": 1,
+            "explanation": "3 × 5 = 15 ลูก"
+        },
+        {
+            "question": "ขวดน้ำใบหนึ่งมีความจุ 1 ลิตร ถ้ามีน้ำ 4 ขวด จะมีน้ำทั้งหมดกี่ลิตร",
+            "choices": [
+                "2 ลิตร",
+                "3 ลิตร",
+                "4 ลิตร",
+                "5 ลิตร"
+            ],
+            "answer": 2,
+            "explanation": "1 × 4 = 4 ลิตร"
+        },
+        {
+            "question": "เหยือกน้ำมีน้ำ 5 ลิตร เทใส่ขวดขวดละ 1 ลิตร จะได้กี่ขวด",
+            "choices": [
+                "3 ขวด",
+                "4 ขวด",
+                "5 ขวด",
+                "6 ขวด"
+            ],
+            "answer": 2,
+            "explanation": "5 ÷ 1 = 5 ขวด"
+        },
+        {
+            "question": "ถัง A มีน้ำ 6 ลิตร ถัง B มีน้ำ 4 ลิตร ถังใดมีน้ำมากกว่า",
+            "choices": [
+                "ถัง A",
+                "ถัง B",
+                "เท่ากัน",
+                "บอกไม่ได้"
             ],
             "answer": 0,
-            "explanation": "I ใช้กับ am"
+            "explanation": "6 ลิตร มากกว่า 4 ลิตร"
         },
         {
-            "question": "She ______ my friend.",
+            "question": "ขวดหนึ่งมีน้ำ 3 ลิตร อีกขวดมี 5 ลิตร รวมกันมีกี่ลิตร",
             "choices": [
-                "are",
-                "is",
-                "am",
-                "be"
+                "6 ลิตร",
+                "7 ลิตร",
+                "8 ลิตร",
+                "9 ลิตร"
+            ],
+            "answer": 2,
+            "explanation": "3 + 5 = 8 ลิตร"
+        },
+        {
+            "question": "ถังน้ำมีน้ำ 9 ลิตร ใช้ไป 4 ลิตร เหลือกี่ลิตร",
+            "choices": [
+                "3 ลิตร",
+                "4 ลิตร",
+                "5 ลิตร",
+                "6 ลิตร"
+            ],
+            "answer": 2,
+            "explanation": "9 − 4 = 5 ลิตร"
+        },
+        {
+            "question": "ขวดน้ำ 1 ขวด มี 2 ลิตร ถ้ามี 4 ขวด จะมีน้ำทั้งหมดกี่ลิตร",
+            "choices": [
+                "6 ลิตร",
+                "7 ลิตร",
+                "8 ลิตร",
+                "9 ลิตร"
+            ],
+            "answer": 2,
+            "explanation": "2 × 4 = 8 ลิตร"
+        },
+        {
+            "question": "ถังหนึ่งมีน้ำ 10 ลิตร ใช้ไป 3 ลิตร แล้วเติมเพิ่มอีก 2 ลิตร เหลือกี่ลิตร",
+            "choices": [
+                "7 ลิตร",
+                "8 ลิตร",
+                "9 ลิตร",
+                "10 ลิตร"
+            ],
+            "answer": 2,
+            "explanation": "10 − 3 + 2 = 9 ลิตร"
+        },
+        {
+            "question": "ขวด A มีน้ำ 7 ลิตร ขวด B มีน้ำ 5 ลิตร ต่างกันกี่ลิตร",
+            "choices": [
+                "1 ลิตร",
+                "2 ลิตร",
+                "3 ลิตร",
+                "4 ลิตร"
             ],
             "answer": 1,
-            "explanation": "She ใช้กับ is"
+            "explanation": "7 − 5 = 2 ลิตร"
         },
         {
-            "question": "They ______ playing football.",
+            "question": "แม่ซื้อน้ำผลไม้ 3 ขวด ขวดละ 2 ลิตร มีน้ำผลไม้ทั้งหมดกี่ลิตร",
             "choices": [
-                "am",
-                "is",
-                "are",
-                "be"
+                "4 ลิตร",
+                "5 ลิตร",
+                "6 ลิตร",
+                "7 ลิตร"
             ],
             "answer": 2,
-            "explanation": "They ใช้กับ are"
+            "explanation": "3 × 2 = 6 ลิตร"
         },
         {
-            "question": "He ______ tennis.",
+            "question": "ถังน้ำมี 12 ลิตร เทใส่ขวดขวดละ 3 ลิตร จะได้กี่ขวด",
             "choices": [
-                "play",
-                "playing",
-                "plays",
-                "played"
-            ],
-            "answer": 2,
-            "explanation": "He เป็นเอกพจน์ ต้องเติม s"
-        },
-        {
-            "question": "She ______ badminton.",
-            "choices": [
-                "play",
-                "plays",
-                "playing",
-                "played"
+                "3 ขวด",
+                "4 ขวด",
+                "5 ขวด",
+                "6 ขวด"
             ],
             "answer": 1,
-            "explanation": "She เป็นเอกพจน์ ต้องเติม s"
+            "explanation": "12 ÷ 3 = 4"
         },
         {
-            "question": "Which is a water sport?",
+            "question": "มีน้ำ 6 ลิตร เติมเพิ่มอีก 4 ลิตร แล้วใช้ไป 3 ลิตร เหลือกี่ลิตร",
             "choices": [
-                "running",
-                "swimming",
-                "tennis",
-                "badminton"
+                "6 ลิตร",
+                "7 ลิตร",
+                "8 ลิตร",
+                "9 ลิตร"
             ],
             "answer": 1,
-            "explanation": "swimming เป็นกีฬาทางน้ำ"
+            "explanation": "6 + 4 − 3 = 7"
         },
         {
-            "question": "Which sport uses a ball?",
+            "question": "ขวดหนึ่งมี 5 ลิตร อีกขวดมี 2 ลิตร รวมกันกี่ลิตร",
             "choices": [
-                "running",
-                "swimming",
-                "football",
-                "skateboarding"
-            ],
-            "answer": 2,
-            "explanation": "football ใช้ลูกบอล"
-        },
-        {
-            "question": "What do you like?",
-            "choices": [
-                "I volleyball.",
-                "Like I volleyball.",
-                "Volleyball I am.",
-                "I like volleyball."
-            ],
-            "answer": 3,
-            "explanation": "โครงสร้าง I like + กีฬา"
-        },
-        {
-            "question": "Do you like swimming?",
-            "choices": [
-                "No, I do not.",
-                "No, I swimming.",
-                "No, I am not.",
-                "No, I does not."
-            ],
-            "answer": 0,
-            "explanation": "รูปปฏิเสธของ Do you...? คือ No, I do not"
-        },
-        {
-            "question": "Which is a sport?",
-            "choices": [
-                "apple",
-                "chair",
-                "badminton",
-                "pencil"
-            ],
-            "answer": 2,
-            "explanation": "badminton เป็นกีฬา"
-        },
-        {
-            "question": "We ______ football.",
-            "choices": [
-                "play",
-                "plays",
-                "playing",
-                "played"
-            ],
-            "answer": 0,
-            "explanation": "We เป็นพหูพจน์ ใช้ play ไม่เติม s"
-        },
-        {
-            "question": "He ______ a kite.",
-            "choices": [
-                "fly",
-                "flies",
-                "flying",
-                "flied"
+                "6 ลิตร",
+                "7 ลิตร",
+                "8 ลิตร",
+                "9 ลิตร"
             ],
             "answer": 1,
-            "explanation": "He เป็นเอกพจน์ คำที่ลงท้าย y เปลี่ยนเป็น ies"
+            "explanation": "5 + 2 = 7"
         },
         {
-            "question": "Which word is a sport activity?",
+            "question": "ถังหนึ่งมีน้ำ 8 ลิตร ใช้ไป 5 ลิตร เหลือกี่ลิตร",
             "choices": [
-                "eating",
-                "sleeping",
-                "running",
-                "reading"
+                "2 ลิตร",
+                "3 ลิตร",
+                "4 ลิตร",
+                "5 ลิตร"
             ],
-            "answer": 2,
-            "explanation": "running เป็นกิจกรรมกีฬา"
+            "answer": 1,
+            "explanation": "8 − 5 = 3"
         },
         {
-            "question": "Which sentence is correct?",
+            "question": "ขวดน้ำ 2 ลิตร จำนวน 5 ขวด มีน้ำทั้งหมดกี่ลิตร",
             "choices": [
-                "I tennis like.",
-                "Like I tennis.",
-                "I like tennis.",
-                "Tennis I like am."
+                "8 ลิตร",
+                "9 ลิตร",
+                "10 ลิตร",
+                "11 ลิตร"
             ],
             "answer": 2,
-            "explanation": "รูปประโยคที่ถูกต้องคือ I like + กีฬา"
+            "explanation": "2 × 5 = 10"
+        },
+        {
+            "question": "มีน้ำ 15 ลิตร แบ่งใส่ขวดขวดละ 5 ลิตร จะได้กี่ขวด",
+            "choices": [
+                "2 ขวด",
+                "3 ขวด",
+                "4 ขวด",
+                "5 ขวด"
+            ],
+            "answer": 1,
+            "explanation": "15 ÷ 5 = 3"
+        },
+        {
+            "question": "แม่มีน้ำ 9 ลิตร ซื้อเพิ่มอีก 6 ลิตร แล้วใช้ไป 5 ลิตร เหลือกี่ลิตร",
+            "choices": [
+                "8 ลิตร",
+                "9 ลิตร",
+                "10 ลิตร",
+                "11 ลิตร"
+            ],
+            "answer": 2,
+            "explanation": "9 + 6 − 5 = 10"
+        },
+        {
+            "question": "ถัง A มีน้ำ 12 ลิตร ถัง B มีน้ำ 9 ลิตร รวมกันมีกี่ลิตร",
+            "choices": [
+                "19 ลิตร",
+                "20 ลิตร",
+                "21 ลิตร",
+                "22 ลิตร"
+            ],
+            "answer": 2,
+            "explanation": "12 + 9 = 21"
         }
     ]
 }
