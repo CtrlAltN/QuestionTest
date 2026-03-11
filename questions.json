@@ -1,226 +1,226 @@
 {
-    "title": "แบบทดสอบ วัฒนธรรมและภูมิปัญญาไทย",
+    "title": "แบบทดสอบ อังกฤษ",
     "subtitle": "ชั้นประถมศึกษาปีที่ 2",
     "questions": [
         {
-            "question": "การไหว้ของคนไทยใช้แสดงอะไร",
+            "question": "What is your favorite sport?",
             "choices": [
-                "การแข่งขัน",
-                "ความเคารพ",
-                "การทักทายแบบเล่นสนุก",
-                "การขอของ"
+                "I am football.",
+                "My favorite sport is football.",
+                "Football is running.",
+                "I football sport."
             ],
             "answer": 1,
-            "explanation": "การไหว้เป็นมารยาทไทยที่ใช้แสดงความเคารพต่อผู้อื่น"
+            "explanation": "รูปประโยคที่ถูกต้องคือ My favorite sport is + ชื่อกีฬา"
         },
         {
-            "question": "ประเพณีใดเกี่ยวข้องกับการรดน้ำขอพรผู้ใหญ่",
+            "question": "What sport do you like?",
             "choices": [
-                "สงกรานต์",
-                "ลอยกระทง",
-                "วิสาขบูชา",
-                "เข้าพรรษา"
+                "I swimming like.",
+                "Swimming I am.",
+                "I like swimming.",
+                "I am like swimming."
             ],
-            "answer": 0,
-            "explanation": "ประเพณีสงกรานต์มีการรดน้ำดำหัวผู้ใหญ่เพื่อขอพร"
+            "answer": 2,
+            "explanation": "โครงสร้างที่ถูกต้องคือ I like + กีฬา"
         },
         {
-            "question": "การลอยกระทงจัดขึ้นเพื่ออะไร",
+            "question": "Do you like football?",
             "choices": [
-                "ขอขมาพระแม่คงคา",
-                "ขอฝน",
-                "ฉลองปีใหม่",
-                "แข่งเรือ"
+                "Yes, I football.",
+                "Yes, I do.",
+                "Yes, I like do.",
+                "Yes, I am."
             ],
-            "answer": 0,
-            "explanation": "การลอยกระทงเป็นการขอขมาพระแม่คงคาที่เราใช้น้ำ"
+            "answer": 1,
+            "explanation": "คำตอบของ Do you...? ใช้ Yes, I do / No, I do not"
         },
         {
-            "question": "วันสำคัญทางศาสนาที่คนไทยมักไปวัดคือวันใด",
+            "question": "Which word is a sport?",
             "choices": [
-                "วันวิสาขบูชา",
-                "วันเด็ก",
-                "วันครู",
-                "วันแรงงาน"
+                "banana",
+                "table",
+                "football",
+                "book"
             ],
-            "answer": 0,
-            "explanation": "วันวิสาขบูชาเป็นวันสำคัญทางพระพุทธศาสนา"
+            "answer": 2,
+            "explanation": "football เป็นคำศัพท์เกี่ยวกับกีฬา"
         },
         {
-            "question": "การแต่งกายด้วยผ้าไทยแสดงถึงอะไร",
+            "question": "Which sport uses a racket?",
             "choices": [
-                "การอนุรักษ์วัฒนธรรม",
-                "การแข่งขันกีฬา",
-                "การทำงานโรงงาน",
-                "การเล่นเกม"
+                "swimming",
+                "tennis",
+                "running",
+                "flying a kite"
             ],
-            "answer": 0,
-            "explanation": "การสวมใส่ผ้าไทยเป็นการอนุรักษ์วัฒนธรรมไทย"
+            "answer": 1,
+            "explanation": "tennis ใช้ไม้แร็กเก็ต"
         },
         {
-            "question": "ภูมิปัญญาไทยหมายถึงอะไร",
+            "question": "Which word is a subject pronoun?",
             "choices": [
-                "ความรู้ที่สืบทอดกันมา",
-                "การซื้อของจากต่างประเทศ",
-                "การดูโทรทัศน์",
-                "การเล่นเกม"
+                "Run",
+                "Ball",
+                "Sport",
+                "He"
             ],
-            "answer": 0,
-            "explanation": "ภูมิปัญญาไทยคือความรู้ที่บรรพบุรุษถ่ายทอดกันมา"
+            "answer": 3,
+            "explanation": "He เป็น Subject Pronoun"
         },
         {
-            "question": "การจักสานตะกร้าเป็นภูมิปัญญาด้านใด",
+            "question": "______ am a student.",
             "choices": [
-                "งานหัตถกรรม",
-                "ดนตรี",
-                "กีฬา",
-                "การแพทย์"
+                "I",
+                "He",
+                "She",
+                "They"
             ],
             "answer": 0,
-            "explanation": "การจักสานเป็นงานหัตถกรรมพื้นบ้าน"
+            "explanation": "I ใช้กับ am"
         },
         {
-            "question": "การปลูกข้าวของชาวนาไทยถือเป็นอะไร",
+            "question": "She ______ my friend.",
             "choices": [
-                "ภูมิปัญญาการเกษตร",
-                "ภูมิปัญญาดนตรี",
-                "ภูมิปัญญาการท่องเที่ยว",
-                "ภูมิปัญญาการกีฬา"
+                "are",
+                "is",
+                "am",
+                "be"
             ],
-            "answer": 0,
-            "explanation": "การปลูกข้าวเป็นภูมิปัญญาด้านเกษตรของคนไทย"
+            "answer": 1,
+            "explanation": "She ใช้กับ is"
         },
         {
-            "question": "อาหารไทยอย่างต้มยำกุ้งสะท้อนอะไร",
+            "question": "They ______ playing football.",
             "choices": [
-                "ภูมิปัญญาด้านอาหาร",
-                "ภูมิปัญญาด้านกีฬา",
-                "ภูมิปัญญาด้านการบิน",
-                "ภูมิปัญญาด้านคอมพิวเตอร์"
+                "am",
+                "is",
+                "are",
+                "be"
             ],
-            "answer": 0,
-            "explanation": "อาหารไทยเป็นภูมิปัญญาด้านการปรุงอาหาร"
+            "answer": 2,
+            "explanation": "They ใช้กับ are"
         },
         {
-            "question": "สมุนไพรไทยใช้ทำอะไร",
+            "question": "He ______ tennis.",
             "choices": [
-                "รักษาโรค",
-                "สร้างถนน",
-                "สร้างเครื่องบิน",
-                "ทำของเล่น"
+                "play",
+                "playing",
+                "plays",
+                "played"
             ],
-            "answer": 0,
-            "explanation": "สมุนไพรไทยใช้รักษาโรคและดูแลสุขภาพ"
+            "answer": 2,
+            "explanation": "He เป็นเอกพจน์ ต้องเติม s"
         },
         {
-            "question": "การทำขนมไทยเป็นภูมิปัญญาด้านใด",
+            "question": "She ______ badminton.",
             "choices": [
-                "อาหาร",
-                "กีฬา",
-                "การเดินทาง",
-                "การสื่อสาร"
+                "play",
+                "plays",
+                "playing",
+                "played"
             ],
-            "answer": 0,
-            "explanation": "ขนมไทยเป็นภูมิปัญญาด้านอาหาร"
+            "answer": 1,
+            "explanation": "She เป็นเอกพจน์ ต้องเติม s"
         },
         {
-            "question": "การทำเรือจากไม้เป็นภูมิปัญญาด้านใด",
+            "question": "Which is a water sport?",
             "choices": [
-                "งานช่าง",
-                "ดนตรี",
-                "การเขียนหนังสือ",
-                "การวาดภาพ"
+                "running",
+                "swimming",
+                "tennis",
+                "badminton"
             ],
-            "answer": 0,
-            "explanation": "การทำเรือเป็นภูมิปัญญาด้านงานช่างพื้นบ้าน"
+            "answer": 1,
+            "explanation": "swimming เป็นกีฬาทางน้ำ"
         },
         {
-            "question": "การเคารพผู้ใหญ่เป็นลักษณะสำคัญของอะไร",
+            "question": "Which sport uses a ball?",
             "choices": [
-                "วัฒนธรรมไทย",
-                "กีฬาไทย",
-                "วิทยาศาสตร์ไทย",
-                "การแข่งขันไทย"
+                "running",
+                "swimming",
+                "football",
+                "skateboarding"
             ],
-            "answer": 0,
-            "explanation": "การเคารพผู้ใหญ่เป็นวัฒนธรรมสำคัญของคนไทย"
+            "answer": 2,
+            "explanation": "football ใช้ลูกบอล"
         },
         {
-            "question": "การไหว้ครูจัดขึ้นเพื่ออะไร",
+            "question": "What do you like?",
             "choices": [
-                "แสดงความเคารพครู",
-                "แข่งขันกีฬา",
-                "ซื้อของ",
-                "ท่องเที่ยว"
+                "I volleyball.",
+                "Like I volleyball.",
+                "Volleyball I am.",
+                "I like volleyball."
             ],
-            "answer": 0,
-            "explanation": "พิธีไหว้ครูเป็นการแสดงความเคารพต่อครู"
+            "answer": 3,
+            "explanation": "โครงสร้าง I like + กีฬา"
         },
         {
-            "question": "คนไทยมักใส่อะไรในวันสำคัญทางวัฒนธรรม",
+            "question": "Do you like swimming?",
             "choices": [
-                "ชุดไทย",
-                "ชุดนักบิน",
-                "ชุดว่ายน้ำ",
-                "ชุดกีฬา"
+                "No, I do not.",
+                "No, I swimming.",
+                "No, I am not.",
+                "No, I does not."
             ],
             "answer": 0,
-            "explanation": "ในงานวัฒนธรรมมักสวมใส่ชุดไทย"
+            "explanation": "รูปปฏิเสธของ Do you...? คือ No, I do not"
         },
         {
-            "question": "การทำกระทงจากใบตองเป็นภูมิปัญญาแบบใด",
+            "question": "Which is a sport?",
             "choices": [
-                "งานประดิษฐ์จากธรรมชาติ",
-                "งานเครื่องยนต์",
-                "งานคอมพิวเตอร์",
-                "งานกีฬา"
+                "apple",
+                "chair",
+                "badminton",
+                "pencil"
             ],
-            "answer": 0,
-            "explanation": "การใช้ใบตองทำกระทงเป็นการใช้วัสดุธรรมชาติ"
+            "answer": 2,
+            "explanation": "badminton เป็นกีฬา"
         },
         {
-            "question": "การทำนาแบบดั้งเดิมใช้เครื่องมืออะไร",
+            "question": "We ______ football.",
             "choices": [
-                "คันไถ",
-                "เครื่องบิน",
-                "รถไฟ",
-                "จรวด"
+                "play",
+                "plays",
+                "playing",
+                "played"
             ],
             "answer": 0,
-            "explanation": "ชาวนาไทยใช้คันไถในการทำนาแบบดั้งเดิม"
+            "explanation": "We เป็นพหูพจน์ ใช้ play ไม่เติม s"
         },
         {
-            "question": "การสืบทอดภูมิปัญญาไทยควรทำอย่างไร",
+            "question": "He ______ a kite.",
             "choices": [
-                "เรียนรู้และช่วยกันอนุรักษ์",
-                "ทิ้งไม่สนใจ",
-                "ทำลายของเก่า",
-                "เลิกใช้ทั้งหมด"
+                "fly",
+                "flies",
+                "flying",
+                "flied"
             ],
-            "answer": 0,
-            "explanation": "การเรียนรู้และอนุรักษ์ช่วยให้ภูมิปัญญาไทยคงอยู่"
+            "answer": 1,
+            "explanation": "He เป็นเอกพจน์ คำที่ลงท้าย y เปลี่ยนเป็น ies"
         },
         {
-            "question": "ข้อใดเป็นตัวอย่างภูมิปัญญาท้องถิ่น",
+            "question": "Which word is a sport activity?",
             "choices": [
-                "การจักสานไม้ไผ่",
-                "การเล่นเกมออนไลน์",
-                "การสร้างดาวเทียม",
-                "การเขียนโปรแกรม"
+                "eating",
+                "sleeping",
+                "running",
+                "reading"
             ],
-            "answer": 0,
-            "explanation": "การจักสานไม้ไผ่เป็นภูมิปัญญาท้องถิ่นของไทย"
+            "answer": 2,
+            "explanation": "running เป็นกิจกรรมกีฬา"
         },
         {
-            "question": "การช่วยกันรักษาประเพณีไทยจะทำให้เกิดอะไร",
+            "question": "Which sentence is correct?",
             "choices": [
-                "วัฒนธรรมคงอยู่ต่อไป",
-                "วัฒนธรรมหายไป",
-                "คนเลิกทำประเพณี",
-                "ไม่มีใครจำได้"
+                "I tennis like.",
+                "Like I tennis.",
+                "I like tennis.",
+                "Tennis I like am."
             ],
-            "answer": 0,
-            "explanation": "การรักษาประเพณีช่วยให้วัฒนธรรมไทยคงอยู่ต่อไป"
+            "answer": 2,
+            "explanation": "รูปประโยคที่ถูกต้องคือ I like + กีฬา"
         }
     ]
 }
