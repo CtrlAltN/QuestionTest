@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="แบบทดสอบวัฒนธรรมและภูมิปัญญาไทย สำหรับนักเรียนชั้น ป.2">
+    <title>แบบทดสอบประวัติศาสตร์ ป.2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* ===== CSS Reset & Base ===== */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 18px;
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 16px;
+            color: #2d3748;
+            line-height: 1.7;
+        }
+
+        /* ===== Container ===== */
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding-bottom: 100px;
+            /* space for sticky button */
+        }
+
+        /* ===== Header ===== */
+        .header {
+            text-align: center;
+            padding: 24px 16px;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ffffff;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 6px;
+        }
+
+        .header .subtitle {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.85);
+            font-weight: 400;
+        }
+
+        /* ===== Question Card ===== */
+        .question {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 14px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-left: 5px solid #667eea;
+        }
+
+        .question:active {
+            transform: scale(0.99);
+        }
+
+        .question p.q-text {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 14px;
+            line-height: 1.6;
+        }
+
+        .question .q-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+
+        /* ===== Radio Choices (touch-friendly) ===== */
+        .choice-label {
+            display: flex;
+            align-items: center;
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            background: #f7fafc;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            font-weight: 400;
+            transition: background 0.2s ease, border-color 0.2s ease;
+            border: 2px solid transparent;
+            -webkit-tap-highlight-color: transparent;
+            user-select: none;
+        }
+
+        .choice-label:hover {
+            background: #eef2ff;
+            border-color: #c3dafe;
+        }
+
+        .choice-label:active {
+            background: #e0e7ff;
+        }
+
+        .choice-label input[type="radio"] {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            border: 3px solid #cbd5e0;
+            border-radius: 50%;
+            margin-right: 12px;
+            flex-shrink: 0;
+            position: relative;
+            transition: border-color 0.2s ease;
+        }
+
+        .choice-label input[type="radio"]:checked {
+            border-color: #667eea;
+        }
+
+        .choice-label input[type="radio"]:checked::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 12px;
+            height: 12px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 50%;
+        }
+
+        .choice-label:has(input:checked) {
+            background: #eef2ff;
+            border-color: #667eea;
+        }
+
+        /* ===== Submit Button (Sticky) ===== */
+        .btn-wrap {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 14px 16px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+            text-align: center;
+        }
+
+        .btn-submit {
+            display: inline-block;
+            width: 100%;
+            max-width: 720px;
+            padding: 16px 32px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            font-family: 'Sarabun', sans-serif;
+            color: #ffffff;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+        }
+
+        .btn-submit:active {
+            transform: scale(0.98);
+        }
+
+        /* ===== Results ===== */
+        #result {
+            margin-top: 20px;
+        }
+
+        .result-box {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 24px 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            animation: fadeIn 0.4s ease;
+        }
+
+        .result-box .score-title {
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #eef2ff;
+        }
+
+        .result-item {
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            border-radius: 12px;
+            font-size: 1rem;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        .result-item.correct {
+            background: #f0fff4;
+            border-left: 4px solid #48bb78;
+            color: #276749;
+        }
+
+        .result-item.wrong {
+            background: #fff5f5;
+            border-left: 4px solid #fc8181;
+            color: #9b2c2c;
+        }
+
+        .result-item.unanswered {
+            background: #fefcbf;
+            border-left: 4px solid #ecc94b;
+            color: #975a16;
+        }
+
+        .result-item .emoji {
+            font-size: 1.1rem;
+            margin-right: 4px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ===== Responsive: Tablet (600px+) ===== */
+        @media (min-width: 600px) {
+            html {
+                font-size: 19px;
+            }
+
+            body {
+                padding: 24px;
+            }
+
+            .header {
+                padding: 32px 24px;
+                margin-bottom: 28px;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .question {
+                padding: 24px 28px;
+                margin-bottom: 18px;
+            }
+
+            .choice-label {
+                padding: 14px 20px;
+                font-size: 1.1rem;
+            }
+        }
+
+        /* ===== Responsive: Desktop (900px+) ===== */
+        @media (min-width: 900px) {
+            html {
+                font-size: 20px;
+            }
+
+            body {
+                padding: 32px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .question:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+            }
+        }
+
+        /* ===== Small phone (< 380px) ===== */
+        @media (max-width: 380px) {
+            html {
+                font-size: 16px;
+            }
+
+            .header h1 {
+                font-size: 1.3rem;
+            }
+
+            .question {
+                padding: 16px 14px;
+            }
+
+            .choice-label {
+                padding: 10px 12px;
+                font-size: 0.95rem;
+            }
+
+            .choice-label input[type="radio"] {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+
+            .choice-label input[type="radio"]:checked::after {
+                width: 10px;
+                height: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>แบบทดสอบ วัฒนธรรมและภูมิปัญญาไทย</h1>
+            <p class="subtitle">ชั้นประถมศึกษาปีที่ 2</p>
+        </div>
+
+        <form id="quiz"></form>
+
+        <div id="result"></div>
+    </div>
+
+    <div class="btn-wrap">
+        <button class="btn-submit" id="submitBtn" onclick="checkScore()">✅ ตรวจคำตอบ</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
